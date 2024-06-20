@@ -1,0 +1,77 @@
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(207, 207, 227);
+}
+h1 {
+  text-align: center;
+  padding: 40px;
+}
+
+.main {
+  height: 500px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  width: 30%;
+  margin: 40px auto;
+  padding: 50px 25px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.email,
+.passcode,
+.btn {
+  align-self: center;
+  padding: 10px;
+}
+
+.email,
+.passcode {
+  margin-bottom: 20px;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+.btn {
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 100px;
+}
+.btn:hover {
+  background-color: rgb(125, 119, 119);
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(207, 207, 227);
+}
+
+/* MEDIA QUERY */
+@media (max-width: 850px) {
+  .form {
+    width: 40%;
+  }
+}
+@media (max-width: 740px) {
+  .form {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .form {
+    width: 60%;
+  }
+}
+@media (max-width: 470px) {
+  .form {
+    width: 70%;
+  }
+}
