@@ -50,18 +50,20 @@ main {
   width: 200px;
   border: 1px solid #ccc;
 }
-.btn {
+.btn,
+.btn:visited {
   border: 1px solid #ccc;
   cursor: pointer;
   width: 100px;
   color: #212529;
 }
+
 .btn:hover {
   background-color: rgb(125, 119, 119);
   color: #e9ecef;
 }
 
-footer {
+.btn footer {
   text-align: center;
   padding: 20px;
   background-color: #d0ebff;
