@@ -1,0 +1,51 @@
+/* html,
+body {
+  height: 100%;
+  margin: 0;
+} */
+
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(138, 138, 185);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+  width: 30%;
+  margin: 50px 50px;
+  padding: 20px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.email,
+.passcode {
+  margin-bottom: 15px;
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.btn {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  width: 80px;
+}
+.btn:hover,
+.btn:active {
+  background-color: rgb(22, 21, 21);
+  color: white;
+}
+
+footer {
+  background-color: rgb(138, 138, 185);
+}
