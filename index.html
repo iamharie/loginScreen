@@ -13,17 +13,35 @@
       <header>
         <h1>THE FORM!</h1>
       </header>
+      <div class="modal modal-content">
+        <span class="close">&times;</span>
+        <p>form Submitted</p>
+        </div>
+      </div>
       <main>
-        <form class="form">
-          <input type="email" placeholder="Email" id="email" class="email" />
-          <input type="password" placeholder="Passcode" class="passcode" />
-          <button class="btn">Login</button>
+        <form id="myForm" onsubmit="">
+          <!-- <label for="email">Email:</label> -->
+          <input type="email" id="email" name="email" placeholder="Email" />
+          <span id="emailError" class="error-message"></span>
+          <!-- <label for="password">Password:</label> -->
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+          <span id="passwordError" class="error-message"></span>
+
+          <button type="submit" id="btn">Login</button>
         </form>
+        
       </main>
 
       <footer>
         <p>&copy; Hariharan Mohanm All rights reserved</p>
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
