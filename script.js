@@ -5,7 +5,8 @@ document.getElementById("myForm").addEventListener("submit", function (e) {
 
   let isValid = validateForm();
   if (isValid) {
-    modalContent.classList.toggle("modal");
+    window.location.href = "onLogin.html";
+    // modalContent.classList.toggle("modal");
   }
 });
 document.querySelector(".close").addEventListener("click", function () {
